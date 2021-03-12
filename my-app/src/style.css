@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+.ui.dropdown.item {
+  padding-left: 50px;
+}
+
+.ui.borderless.topmenu.menu {
+  border: none;
+  box-shadow: none;
+
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 100px;
+}
+
+.content {
+  padding-top: 30px;
+  padding-left: 550px;
+  font-style: normal;
+  font-size: .9375em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  margin-right: 15px;
+}
+
+.content.two {
+  font-style: normal;
+  font-size: .9375em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+.ui.borderless.middlemenu.menu {
+  border: none;
+  box-shadow: none;
+  padding-left: 30px;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.top {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.background {
+  height: 800px;
+  overflow: hidden;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  background-image: url("https://www.hawaiianairlines.com/static/images/homepage-heroes/homepagebg-mountain-range.jpg?version=18b8&sc_lang=en%27");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.ui.centered.aligned.grid {
+  margin-top: 240px;
+}
+
+.middlepage {
+  margin-top: 240px;
+}
+
+p {
+  color: white;
+}
+
+.ui.tabular.top.menu {
+  border: none;
+  box-shadow: none;
+  background-color: purple;
+}
+.ui.attached.tabular.menu {
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 55%;
+}
+
+.ui.tabular.menu+.attached:not(.top).segment, .ui.tabular.menu+.attached:not(.top).segment+.attached:not(.top).segment {
+  border-top: none;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 55%;
+  background-color: purple;
+  border: none;
+}
+
+.ui.tabular.top.menu .active.item {
+  background: purple;
+  color: white;
+  border-top-width: 1px;
+  border-color: #f1f1f1;
+  font-weight: 700;
+  margin-bottom: -1px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: .28571429rem .28571429rem 0 0!important;
+}
+
+.ui.label {
+  color: white;
+}
+
+.txt {
+  color: #f1f1f1;
+}
+.footer-background {
+  background-color: white;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  color: black;
+}
